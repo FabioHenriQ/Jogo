@@ -2,4 +2,57 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #ccc;
+
+}
+form{
+    padding: 10px;
+    text-align: center;
+}
+form p{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 4px;
+}
+[type=text]{
+    width: 110px;
+    margin: 10px;
+    height: 110px;
+    font-size: 50px;
+    text-align: center;
+    border: 0px;
+    box-shadow: 0 5px 10px 0;
+    border-radius: 10px;
+}
+[type=submit]{
+    font-size: 20px;
+    background-color: #d07aeb;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0;
+    padding: 8px;
+    margin: 7px;
+}
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resultado .a1 p{
+    background-color: white;
+    width: 100px;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.resultado p{
+    margin: 7px;
+    font-size: 16px;
+
 }
