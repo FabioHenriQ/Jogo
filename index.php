@@ -57,6 +57,7 @@ if(isset($_POST['acao'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="jogo-da-velha.png">
     <title>Jogo da Velha</title>
     <meta name="description" content="Um jogo da velha feito com PHP, feito para praticar">
 </head>
